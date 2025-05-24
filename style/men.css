@@ -1,0 +1,522 @@
+#main{
+    /* border: 1px solid red; */
+    height: 1000px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+}
+#heading{
+    /* border: 1px solid red; */
+    height: 50px;
+    margin-bottom: 1%;
+    width: 95%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+#center{
+    display: flex;
+    margin: auto;
+
+}
+#center>p{
+    margin-right: 15%;
+    cursor: pointer;
+}
+.l{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+}
+.r{
+    /* border: 1px solid black; */
+    height: 100%;
+    
+    width: 50%;
+}
+.content{
+    /* border: 1px solid blue; */
+    height: 250px;
+    width: 50%;
+    margin: auto;
+    margin-top: 1%;
+}
+h5{
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+    font-size: 37px;
+    text-transform: capitalize;
+
+}
+.conp{
+  text-align: center;
+}
+.shopbtn{
+    color: white;
+    background-color: black;
+    padding: 13px 34px;
+    border-radius: 35%;
+    border: none;
+    font-size: 18px;
+    margin-left: 43%;
+    cursor: pointer;
+}
+
+#trending{
+    /* border: 1px solid red; */
+
+    height: 600px;
+    width: 95%;
+    margin: auto;
+    display: flex;
+  
+}
+.trnd{
+  /* border: 1px solid red; */
+  width: 95%;
+  margin: auto;
+}
+#trending > div{
+    /* border: 1px solid red; */
+    height: 500px;
+    width: 35%;
+    margin-left: 1%;
+     
+}
+
+.title{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+
+.leftc{
+    width: 100%;
+    /* border: 1px solid red; */
+}
+.thelatest{
+    /* border: 1px solid red; */
+    width: 95%;
+    margin: auto;
+  }
+  #latest{
+      /* border: 1px solid red; */
+      height: 900px;
+      width: 95%;
+      margin: auto;
+      display: flex;
+  }
+ 
+
+
+  @media screen and (min-width: 0px) and (max-width: 414px) {
+
+    #main{
+        /* border: 1px solid red; */
+        height: 200px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+    #heading{
+        /* border: 1px solid red; */
+        height: 50px;
+        margin-bottom: 1%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    #center{
+        display: flex;
+        margin: auto;
+    
+    }
+    #center>p{
+        margin-right: 15%;
+        cursor: pointer;
+    }
+    .l{
+        /* border: 1px solid black; */
+        width: 50%;
+        height: 100%;
+    }
+    .r{
+        /* border: 1px solid black; */
+        height: 100%;
+        
+        width: 50%;
+    }
+    .content{
+        /* border: 1px solid blue; */
+        height: 250px;
+        width: 100%;
+        margin: auto;
+        margin-top: 1%;
+    }
+    h5{
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        margin: auto;
+        font-weight: 900;
+        font-size: 37px;
+        text-transform: capitalize;
+    
+    }
+    .conp{
+      text-align: center;
+    }
+    .shopbtn{
+        color: white;
+        /* background-color: black; */
+        padding: 13px 34px;
+        border-radius: 20px;
+        border: none;
+        font-size: 18px;
+        /* margin-left: 43%; */
+        cursor: pointer;
+        margin: auto;
+    }
+    
+    #trending{
+        /* border: 1px solid red; */
+        height: 700px;
+        width: 95%;
+        margin: auto;
+        overflow: auto;
+      
+    }
+    .trnd{
+      /* border: 1px solid red; */
+      width: 95%;
+      /* margin: auto; */
+      margin-top: 20%;
+    }
+    #trending > div{
+        /* border: 1px solid red; */
+        height: 500px;
+        width: 35%;
+        margin-left: 1%;
+         
+    }
+    .title{
+        /* border: 1px solid red; */
+        display: flex;
+        height: 50px;
+        width: 100%;
+    }
+    
+    .leftc{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .thelatest{
+        /* border: 1px solid red; */
+        width: 95%;
+        margin: auto;
+      }
+      #latest{
+          /* border: 1px solid red; */
+          height: 400px;
+          width: 100%;
+          margin: auto;
+          display: flex;
+      }
+
+
+  }
+
+  @media only screen and (min-width: 415px) and (max-width: 820px) {
+    #main{
+        /* border: 1px solid red; */
+        height: 1000px;
+        width: 95%;
+        margin: auto;
+        display: flex;
+    }
+    #heading{
+        /* border: 1px solid red; */
+        height: 50px;
+        margin-bottom: 1%;
+        width: 95%;
+        margin: auto;
+        display: flex;
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    #center{
+        display: flex;
+        margin: auto;
+    
+    }
+    #center>p{
+        margin-right: 15%;
+        cursor: pointer;
+    }
+    .l{
+        /* border: 1px solid black; */
+        width: 50%;
+        height: 100%;
+    }
+    .r{
+        /* border: 1px solid black; */
+        height: 100%;
+        
+        width: 50%;
+    }
+    .content{
+        /* border: 1px solid blue; */
+        height: 250px;
+        width: 50%;
+        margin: auto;
+        margin-top: 1%;
+    }
+    h5{
+        font-size: 20px;
+        text-align: center;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        margin: auto;
+        font-weight: 900;
+        font-size: 37px;
+        text-transform: capitalize;
+    
+    }
+    .conp{
+      text-align: center;
+    }
+    .shopbtn{
+        color: white;
+        background-color: black;
+        padding: 13px 34px;
+        border-radius: 35%;
+        border: none;
+        font-size: 18px;
+        margin-left: 43%;
+        cursor: pointer;
+    }
+    
+    #trending{
+        /* border: 1px solid red; */
+        height: 600px;
+        width: 95%;
+        margin: auto;
+        display: flex;
+      
+    }
+    .trnd{
+      /* border: 1px solid red; */
+      width: 95%;
+      margin: auto;
+    }
+    #trending > div{
+        /* border: 1px solid red; */
+        height: 500px;
+        width: 35%;
+        margin-left: 1%;
+         
+    }
+    .title{
+        /* border: 1px solid red; */
+        display: flex;
+        height: 50px;
+        width: 100%;
+    }
+    
+    .leftc{
+        width: 100%;
+        /* border: 1px solid red; */
+    }
+    .thelatest{
+        /* border: 1px solid red; */
+        width: 95%;
+        margin: auto;
+      }
+      #latest{
+          /* border: 1px solid red; */
+          height: 900px;
+          width: 95%;
+          margin: auto;
+          display: flex;
+      }
+     
+    /* Footer Container */
+#futer_footer {
+    width: 100%;
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px 40px;
+    box-sizing: border-box;
+  }
+  
+  /* Upper Footer */
+  #footer_hr_upper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  #footer_hr_upper > div {
+    flex: 1;
+    min-width: 220px;
+    margin: 10px 0;
+  }
+  
+  .find_a_store_footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .find_a_store_footer a:hover {
+    text-decoration: underline;
+  }
+  
+  #footer_get_help_h3,
+  #footer_about_nike_h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  #footer_get_help_p a,
+  #footer_about_nike_p a {
+    color: gray;
+    font-size: 13px;
+    text-decoration: none;
+  }
+  
+  #footer_get_help_p a:hover,
+  #footer_about_nike_p a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Social Icons */
+  .social_img {
+    height: 30px;
+    margin: 5px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s ease;
+  }
+  
+  .social_img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Lower Footer */
+  #footer_hr_lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: gray;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+  }
+  
+  #footer_location_pin_image {
+    width: 18px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  #footer_location_india {
+    display: inline-block;
+    font-size: 13px;
+    margin: 0;
+  }
+  
+  /* Responsive Layout */
+  @media (max-width: 768px) {
+    #footer_hr_upper {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    #footer_hr_lower {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+  #Tsaone {
+    width: 100%;
+    max-width: 560px;
+    aspect-ratio: 16 / 9;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  #Tsaone iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+  #join_us_nav_bar,
+  #sign_in_nav_bar {
+    display: block;
+    text-decoration: none;
+    color: #111;
+    font-size: 18px;
+    margin: 10px 0;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  #join_us_nav_bar:hover,
+  #sign_in_nav_bar:hover {
+    text-decoration: underline;
+  }
+  
+  .nav_links {
+    display: flex;
+    justify-content: center; /* centers the links */
+    gap: 40px;               /* spacing between them */
+    margin: 20px 0;
+  }
+  
+  .nav_links {
+    display: flex;
+    justify-content: center; /* Center links */
+    gap: 60px;               /* Space between links */
+    margin: 20px 0;
+    flex-wrap: wrap;
+  }
+  
+  .nav_link {
+    font-size: 18px;
+    color: #000; /* Force black */
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .nav_link:hover {
+    text-decoration: underline;
+  }
+  
